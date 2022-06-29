@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" >
+<link rel="stylesheet" href="form.css">
+</head>
+<body bgcolor="PapayaWhip">
+
+<h1 align="center">Login</h1>
+
+<form action="projectpage.html" >
+  <div class="imgcontainer">
+    <img src="student.jpg" width="250" height="250">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>ROLL NUMBER</b></label>
+    <input type="text" placeholder="ENTER ROLL NUMBER" name="uname" required>
+
+    <label for="psw"><b>DATE OF BIRTH</b></label>
+    <input type="date" placeholder="DD/MM/YYYY" name="dob" required>
+        
+    <div font-size:20;><a href="projectpage.html"><button>Login</button></a></div>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>

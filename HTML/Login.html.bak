@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Login</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="light-pink">
+<br><br><br><br><br><br>
+<div class="registerbtn"><a href="Stafflog.html"><button>Staff Login</button></a></div>
+<br><br><br><br>
+<div class="registerbtn"><a href="Stulog.html"><button>Student Login</button></a></div>
+</body>
+</html>

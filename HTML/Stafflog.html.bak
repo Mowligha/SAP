@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" >
+<link rel="stylesheet" href="form.css">
+</head>
+<body bgcolor="PapayaWhip">
+
+<h1 align="center">Login </h1>
+<form action="staffpage.html">
+  <div class="imgcontainer">
+    <img src="staff.png" width="250" height="250">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+<div font-size:20;><a href="staffpage.html"><button>Login</button></a></div>
+   
+  </div>
+<script>
+	alert("Regsiterd Successfully")
+</script>
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</body>
+</html>
